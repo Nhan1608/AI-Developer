@@ -1,3 +1,7 @@
+[![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
+[![CI/CD](https://github.com/Nhan1608/AI-Developer/actions/workflows/main.yml/badge.svg)](https://github.com/Nhan1608/AI-Developer/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # AI Artifact Tracing Tool for Machine Learning Projects 
 # Project Overview
 The AI Artifact Tracing Tool is a static analysis utility designed to bring transparency and reproducibility to Machine Learning (ML) repositories. Developed at the Lassonde School of Engineering, this tool automates the extraction of critical metadata—such as model architectures, datasets, and hyperparameters—directly from source code.
