@@ -1,4 +1,4 @@
-from src.tracer import analyze_metadata
+from tracer import analyze_metadata
 
 def test_analyze_metadata_success():
     # This checks if the function returns the expected string
