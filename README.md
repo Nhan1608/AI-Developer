@@ -31,3 +31,18 @@ Analysis Engine: Astroid (Advanced AST wrapping)
 Automation: GitHub Actions (CI/CD)
 
 Testing: Pytest
+
+## 🚀 Future Roadmap: LLM & RAG Integration
+
+To transition this from a static analysis tool to a dynamic **AI Tutor** (aligned with IBM's internal tool goals), the following features are planned:
+
+1. **LLM-Powered Summarization**:
+   - Integrate **IBM watsonx.ai** or OpenAI APIs to transform raw metadata (JSON) into human-readable project summaries.
+   - Example: Instead of just listing `RandomForest`, the tool will explain *why* that model was chosen based on the surrounding code comments.
+
+2. **RAG (Retrieval-Augmented Generation) for Documentation**:
+   - Implement a **RAG pipeline** where the extracted metadata is stored in a Vector Database (like Milvus or ChromaDB).
+   - This would allow developers to "chat" with their repository: *"Show me all hyperparameters used in the last 3 experiments."*
+
+3. **Automated Role-Play for Code Reviews**:
+   - Use the extracted artifacts to generate AI-driven "mock" code reviews, helping junior developers grow their skills through interactive feedback.
