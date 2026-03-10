@@ -32,7 +32,7 @@ Automation: GitHub Actions (CI/CD)
 
 Testing: Pytest
 
-## 🚀 Future Roadmap: LLM & RAG Integration
+# 🚀 Future Roadmap: LLM & RAG Integration
 
 To transition this from a static analysis tool to a dynamic **AI Tutor** (aligned with IBM's internal tool goals), the following features are planned:
 
